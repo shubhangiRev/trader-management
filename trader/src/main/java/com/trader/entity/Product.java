@@ -17,10 +17,10 @@ public class Product {
     private String productName ;
 
     @Column(name= "supplier_id",length = 30)
-    private int SupplierID  ;
+    private int supplierId  ;
 
     @Column(name= "category_id",length = 30)
-    private int CategoryID ;
+    private int categoryId ;
 
     @Column(name= "quantity_per_unit",length = 30)
     private String quantityPerUnit;
@@ -35,7 +35,7 @@ public class Product {
     private int unitsOnOrder ;
 
     @Column(name= "reorder_level",length = 30,columnDefinition = "integer default 0")
-    private int ReorderLevel ;
+    private int reorderLevel ;
 
     @Column(name= "discontinued",length = 30)
     private Boolean discontinued  ;

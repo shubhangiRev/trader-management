@@ -57,7 +57,7 @@ public class Employee {
     private byte[] photo;
 
     @Lob()
-    @Column(nullable = false)
+    @Column
     private String notes;
 
     @Column(name = "photo_path", length = 255)
