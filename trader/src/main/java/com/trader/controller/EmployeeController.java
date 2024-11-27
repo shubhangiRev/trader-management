@@ -1,5 +1,6 @@
 package com.trader.controller;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
 import com.trader.dto.EmployeeDto;
 import com.trader.entity.Employee;
 import com.trader.service.EmployeeService;
@@ -18,7 +19,7 @@ public class EmployeeController {
 @PostMapping("/add")
    public void addEmployee(@RequestBody Employee employee){
         employee.setPhoto(employeeService.imageToByteArray(employee));
-
+    System.out.println("add employee call");
     employeeService.addNewEmployee(employee);
 
 
