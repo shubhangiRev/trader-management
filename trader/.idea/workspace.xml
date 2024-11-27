@@ -4,33 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b67d01-2f10-412a-97e1-d2fc3528b8ef" name="Changes" comment="add ProductServiceImpl.java and some changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/dto/EmployeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/dto/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trader/serviceImpl/EmployeeServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/controller/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/dto/EmployeeDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/dto/ProductDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/repository/EmployeeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/repository/ProductRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/serviceImpl/EmployeeServiceimpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/trader/serviceImpl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e3b67d01-2f10-412a-97e1-d2fc3528b8ef" name="Changes" comment="add services some important files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/trader-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/trader-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/trader-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/trader-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trader/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trader/dto/EmployeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trader/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trader/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trader/serviceImpl/EmployeeServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trader/serviceImpl/EmployeeServiceimpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732703295790</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add services some important files">
+      <option name="closed" value="true" />
+      <created>1732705690740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732705690741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +205,8 @@
     <MESSAGE value="convert propeties to yml" />
     <MESSAGE value="change port no" />
     <MESSAGE value="add ProductServiceImpl.java and some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ProductServiceImpl.java and some changes" />
+    <MESSAGE value="add services some important files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add services some important files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

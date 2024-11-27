@@ -1,15 +1,8 @@
 package com.trader.dto;
 
-import com.trader.entity.Order;
 import lombok.Data;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Lob;
-import javax.persistence.OneToMany;
 import java.util.Date;
-import java.util.Set;
-
 @Data
 public class EmployeeDto {
     private int employeeID;
